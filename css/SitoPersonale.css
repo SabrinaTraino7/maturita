@@ -7,6 +7,7 @@
 .specialFont{font-weight: bold;margin: auto; width: 50%;border: 3px;padding: 2px; border-color: white; border-width: 2px;}
 .header{font-weight: bold;}
 .information{color:rgb(20, 12, 1); text-align: justify;}
+.bgwhite {background-color: white;}
 .info {
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
