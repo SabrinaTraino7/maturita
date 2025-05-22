@@ -1,0 +1,187 @@
+.initialText {color:rgb(20, 12, 1); font-weight: bold;}
+.initialText2 {color:rgb(20, 12, 1); font-weight: bold; font-size: medium;}
+.background{background-color:rgb(175, 143, 111)}
+.bgblack{background-color: rgb(20, 12, 1)}
+.text {color: rgb(175, 143, 111); font-style:normal; font-weight:bold; font-size: large;}
+.center {margin: auto; width: 50%;border: 3px;padding: 2px; }
+.specialFont{font-weight: bold;margin: auto; width: 50%;border: 3px;padding: 2px; border-color: white; border-width: 2px;}
+.header{font-weight: bold;}
+.information{color:rgb(20, 12, 1); text-align: justify;}
+.info {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('../img/book.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar { /* Aggiungi una classe per gestire la sezione principale */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; /* Aggiungi padding per dare spazio attorno alla nav */
+    /*border: solid blu;*/
+}
+
+/* Contenitore principale (già uno sotto l'altro) */
+.navbar2 .container-fluid2 {
+    display: flex;
+    flex-direction: column;  /* Riquadri in verticale */
+    gap: 20px;              /* Spazio tra i riquadri */
+    padding: 30px; /* Spazio uniforme su tutti i lati */
+}
+
+/* Singolo riquadro con contenuto in orizzontale */
+.vertical {
+    display: flex;           /* Disposizione orizzontale */
+    flex-direction: column;
+    background: rgb(175, 143, 111);
+    padding: 15px;
+    border-radius: 10px;
+}
+.vertical > div {  /* Aggiungi un div wrapper attorno a img e p se necessario */
+    display: flex;
+    gap: 20px; /* Spazio tra immagine e testo */
+    align-items: flex-start; /* Allinea in alto */
+}
+/* Stile del testo */
+.vertical p {
+    margin: 0;
+    flex: 1; /* Occupa lo spazio rimanente */
+}
+
+/* Stile per l'immagine */
+.vertical img {
+    width: auto; /* Larghezza fissa */
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Stile per il testo */
+.giustificato {
+    margin: 0;              /* Rimuove margini predefiniti */
+    flex: 1;                /* Occupa lo spazio rimanente */
+}
+
+/* Responsive: su mobile torna a verticale */
+@media (max-width: 768px) {
+    .vertical > div {
+        flex-direction: column;
+    }
+    .vertical img {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+.horizontal-container {
+    flex-basis: 50%;
+    display:flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+    margin-left: 10px;
+    /*border: solid black;*/
+}
+
+.horizontal-container img {
+    width: 32%;
+    height: auto;
+    margin-bottom: 10px;
+    /*border: solid green;*/
+}
+
+.horizontal-container img:last-child {
+    margin-bottom: 0;
+}
+
+/* Rimuove i margini e padding globali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Barra di navigazione */
+.navbar {
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+
+/* Rimuovi spazio attorno ai link della navbar */
+.nav-item {
+    list-style: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    text-align: center;
+}
+
+/* Navbar e immagine */
+.navbar.navbar-expand-md {
+    width: 100%;
+}
+
+/* Imposta l'immagine per occupare tutta la larghezza della pagina */
+.img-fluid {
+    width: 100%;
+    height: auto;
+    margin: 0; /* Rimuove il margine sopra l'immagine */
+}
+
+/* Fai in modo che l'immagine si posizioni sotto la navbar senza spazio */
+img {
+    display: block;
+    width: 100%;
+}
+.container-fluid {
+    display: flex; /* Utilizza Flexbox per allineare i contenuti */
+    justify-content: space-around; /* Distanza uniforme tra gli elementi */
+    align-items: center; /* Allinea gli elementi alla stessa altezza */
+    flex-wrap: wrap; /* Permetti il ritorno a capo degli elementi */
+    gap: 20px; /* Distanza tra i riquadri */
+}
+
+/* Stile per la sezione PDF con immagine */
+.pdf-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.content-image {
+    max-width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Stile per la sezione esperienza */
+.experience-section {
+    margin-top: 25px;
+}
+
+.section-title {
+    color: rgb(20, 12, 1);
+    margin: 0 0 10px 0;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+/* Mantieni stili esistenti */
+.information {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.dintext {
+    display: inline-block;
+    color: rgb(20, 12, 1);
+    text-decoration: none;
+    padding: 5px 0;
+}
+
