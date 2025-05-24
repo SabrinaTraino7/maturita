@@ -17,20 +17,20 @@
     background-repeat: no-repeat;
 }
 
-.navbar { /* Aggiungi una classe per gestire la sezione principale */
+.navbar { /
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px; /* Aggiungi padding per dare spazio attorno alla nav */
-    /*border: solid blu;*/
+    padding: 20px; /* padding per dare spazio attorno alla nav */
+    
 }
 
-/* Contenitore principale (già uno sotto l'altro) */
+/* Contenitore principale uno sotto l'altro */
 .navbar2 .container-fluid2 {
     display: flex;
     flex-direction: column;  /* Riquadri in verticale */
     gap: 20px;              /* Spazio tra i riquadri */
-    padding: 30px; /* Spazio uniforme su tutti i lati */
+    padding: 30px; /* controrno uguale su ogni lato */
 }
 
 /* Singolo riquadro con contenuto in orizzontale */
@@ -44,10 +44,10 @@
     width: 100%;
     box-sizing: border-box; /* Include padding nel calcolo della larghezza */
 }
-.vertical > div {  /* Aggiungi un div wrapper attorno a img e p se necessario */
+.vertical > div {  /* aggiunta con un div wrapper attorno a img e p  */
     display: flex;
     gap: 20px; /* Spazio tra immagine e testo */
-    align-items: flex-start; /* Allinea in alto */
+    align-items: flex-start; /* Allineato in alto */
 }
 /* Stile del testo */
 .vertical p {
@@ -149,43 +149,29 @@ img {
     gap: 20px; /* Distanza tra i riquadri */
 }
 
-/* Stile per la sezione PDF con immagine */
-.pdf-section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-    margin: 15px 0;
-}
 
 .content-image {
     max-width: 200px;
     height: auto;
     border-radius: 5px;
 }
-
-/* Stile per la sezione esperienza */
-.experience-section {
-    margin-top: 25px;
+//box per epriododi stage
+.period-box {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(156, 117, 97);
 }
 
-.section-title {
-    color: rgb(0, 25, 74);
-    margin: 0 0 10px 0;
-    font-size: 1.3em;
-    font-weight: 600;
+.period-box h5 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color:rgb(121, 83, 64) ;
 }
 
-/* Mantieni stili esistenti */
-.information {
-    margin: 0;
-    line-height: 1.6;
-}
-
-.dintext {
-    display: inline-block;
-    color: rgb(0, 25, 74);
-    text-decoration: none;
-    padding: 5px 0;
+.period-box p {
+    margin: 5px 0;
+    font-size: 0.9em;
 }
 
