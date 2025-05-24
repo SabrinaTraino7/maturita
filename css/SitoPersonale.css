@@ -54,8 +54,7 @@
 
 /* Stile per l'immagine */
 .vertical img {
-    width:max-content; /* Larghezza fissa */
-    height: 120px;
+    height: auto;
     object-fit: cover;
     border-radius: 5px;
 }
