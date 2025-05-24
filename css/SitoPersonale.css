@@ -7,7 +7,6 @@
 .specialFont{font-weight: bold;margin: auto; width: 50%;border: 3px;padding: 2px; border-color: white; border-width: 2px;}
 .header{font-weight: bold;}
 .information{color:rgb(121, 83, 64); text-align: justify;}
-
 .info {
 
     background-image: 
@@ -55,7 +54,7 @@
 
 /* Stile per l'immagine */
 .vertical img {
-    width: auto; /* Larghezza fissa */
+    width:max-content; /* Larghezza fissa */
     height: 120px;
     object-fit: cover;
     border-radius: 5px;
