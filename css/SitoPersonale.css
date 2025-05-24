@@ -35,11 +35,14 @@
 
 /* Singolo riquadro con contenuto in orizzontale */
 .vertical {
+    
     display: flex;           /* Disposizione orizzontale */
     flex-direction: column;
     background: rgb(239, 229, 220);
     padding: 15px;
     border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box; /* Include padding nel calcolo della larghezza */
 }
 .vertical > div {  /* Aggiungi un div wrapper attorno a img e p se necessario */
     display: flex;
@@ -54,7 +57,8 @@
 
 /* Stile per l'immagine */
 .vertical img {
-    height: auto;
+    width:auto; /* Larghezza fissa */
+    height: 120px;
     object-fit: cover;
     border-radius: 5px;
 }
