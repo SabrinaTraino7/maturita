@@ -1,8 +1,8 @@
 .initialText {color:rgb(20, 12, 1); font-weight: bold;}
 .initialText2 {color:rgb(20, 12, 1); font-weight: bold; font-size: medium;}
-.background{background-color:rgb(185, 158, 128)}
+.background{background-color: rgb(185, 158, 128)}
 .bgblack{background-color: rgb(20, 12, 1)}
-.text {color:rgb(185, 158, 128); font-style:normal; font-weight:bold; font-size: large;}
+.text {color: rgb(185, 158, 128); font-style:normal; font-weight:bold; font-size: large;}
 .center {margin: auto; width: 50%;border: 3px;padding: 2px; }
 .specialFont{font-weight: bold;margin: auto; width: 50%;border: 3px;padding: 2px; border-color: white; border-width: 2px;}
 .header{font-weight: bold;}
