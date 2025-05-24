@@ -168,7 +168,7 @@ img {
 }
 
 .section-title {
-    color: rgb(20, 12, 1);
+    color: rgb(0, 25, 74);
     margin: 0 0 10px 0;
     font-size: 1.3em;
     font-weight: 600;
@@ -182,7 +182,7 @@ img {
 
 .dintext {
     display: inline-block;
-    color: rgb(20, 12, 1);
+    color: rgb(0, 25, 74);
     text-decoration: none;
     padding: 5px 0;
 }
