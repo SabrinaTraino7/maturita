@@ -38,7 +38,7 @@
 .vertical {
     display: flex;           /* Disposizione orizzontale */
     flex-direction: column;
-    background: rgb(45, 199, 255);
+    background: rgb(145, 199, 255);
     padding: 15px;
     border-radius: 10px;
 }
