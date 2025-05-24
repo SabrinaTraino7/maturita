@@ -1,8 +1,8 @@
 .initialText {color:rgb(0, 25, 74); font-weight: bold;}
 .initialText2 {color:rgb(0, 25, 74); font-weight: bold; font-size: medium;}
-.background{background-color: rgb(182, 218, 255)}
+.background{background-color: rgb(219, 237, 255)}
 .bgblack{background-color: rgb(0, 25, 74)}
-.text {color: rgb(182, 218, 255); font-style:normal; font-weight:bold; font-size: large;}
+.text {color: rgb(219, 237, 255); font-style:normal; font-weight:bold; font-size: large;}
 .center {margin: auto; width: 50%;border: 3px;padding: 2px; }
 .specialFont{font-weight: bold;margin: auto; width: 50%;border: 3px;padding: 2px; border-color: white; border-width: 2px;}
 .header{font-weight: bold;}
@@ -38,7 +38,7 @@
 .vertical {
     display: flex;           /* Disposizione orizzontale */
     flex-direction: column;
-    background: rgb(182, 218, 255);
+    background: rgb(219, 237, 255);
     padding: 15px;
     border-radius: 10px;
 }
