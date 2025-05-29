@@ -180,6 +180,15 @@ img {
     margin: 5px 0;
     font-size: 0.9em;
 }
+.periodBoxVertical {
+    display: flex;           /* Disposizione orizzontale */
+    flex-direction: column;
+    background: rgb(239, 229, 220);
+    padding: 15px;
+    border-radius: 10px;
+    width:auto;
+   /* box-sizing: border-box;  Include padding nel calcolo della larghezza */
+}
 
 /*riquadro esperienza PCTO*/
 .experience-container {
