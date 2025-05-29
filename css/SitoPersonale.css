@@ -8,11 +8,11 @@
 .header{font-weight: bold;}
 .information{color:rgb(121, 83, 64); text-align: justify;}
 .active {
-    background-color: rgb(251, 254, 251);
-    color: rgb(156, 117, 97);
-    padding: 7px;
-    border-radius: 8px;
-}
+                background-color: rgb(251, 254, 251);
+                color: rgb(156, 117, 97);
+                padding: 7px;
+                border-radius: 8px;
+            }
 .info {
 
     background-image: 
