@@ -204,6 +204,25 @@ img {
     .text-wrapper {
       width: 100%;
     }
+}
+/*codice per link in PCTO*/
+.link-container {
+    display: flex; /*dispone i link su una rga orizzontale*/
+    gap: 20px; /*spazio tra ogni link*/
+    justify-content: center; 
+    flex-wrap: wrap; /*permette ai link di andare a capo se non c'è spazio*/
+  }
+  
+  .linkinfo {
+    text-align: center; 
+    color: inherit; /*toglie il colore blu dei link*/
+  }
+  
+  @media (max-width: 768px) {
+    .link-container {
+      flex-direction: column;   /*cambi l'orientamento da orizzontale a verticale*/
+      align-items: center; 
+    }
   }
 /*box per periodo di stage*/
 .period-box {
