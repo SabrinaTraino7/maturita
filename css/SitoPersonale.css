@@ -1,5 +1,5 @@
 .initialText {color:rgb(156, 117, 97); font-weight: bold; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
-.initialText2 {color:rgb(156, 117, 97); font-weight: bold; font-size: medium;}
+.initialText2 {color:rgb(156, 117, 97); font-weight: bold; font-size: medium; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 .background{background-color: rgb(251, 254, 251)}
 .bgblack{background-color: rgb(156, 117, 97)}
 .text {color: rgb(251, 254, 251); font-style:normal; font-weight:bold; font-size: large;}
