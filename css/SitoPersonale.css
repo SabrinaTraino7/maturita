@@ -179,11 +179,11 @@ img {
 }
 /*box per periodo di stage*/
 .period-box {
-    background-color: rgb(156, 117, 97);
+    background-color:rgb(239, 229, 220);
     padding: 10px 15px;
     border-radius: 8px;
    /* margin-bottom: 15px;*/
-    border: 1px solid rgb(121, 83, 64);
+    border: 1px solid rgb(156, 117, 97);
 }
 .period-box h5 {
     margin-top: 0;
