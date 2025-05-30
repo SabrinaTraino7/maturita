@@ -188,7 +188,7 @@ img {
     flex-direction: column;
     padding: 15px;
     border-radius: 10px;
-    width:auto;
+    width:fit-content;
 }
 .period-box h5 {
     margin-top: 0;
