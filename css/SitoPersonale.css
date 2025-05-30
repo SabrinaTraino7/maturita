@@ -197,7 +197,6 @@ img {
 .periodBoxVertical {
     display: flex;           /* Disposizione orizzontale */
     flex-direction: column;
-    background: rgb(239, 229, 220);
     padding: 15px;
     border-radius: 10px;
     width:auto;
