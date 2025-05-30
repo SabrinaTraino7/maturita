@@ -6,7 +6,7 @@
 .center {margin: auto; width: 50%;border: 3px;padding: 2px; }
 .specialFont{font-weight: bold;margin: auto; width: 50%;border: 3px;padding: 2px; border-color: white; border-width: 2px;}
 .header{font-weight: bold;}
-.information{color:rgb(121, 83, 64); text-align: justify; font-size: medium;}
+.information{color:rgb(121, 83, 64); text-align: justify; font-size: larger;}
 
 .active {
     background-color: rgb(251, 254, 251);
