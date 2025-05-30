@@ -176,8 +176,6 @@ img {
     flex-direction: column;
     padding: 15px;
     border-radius: 10px;
-    width: 100%;
-    box-sizing: border-box;
 }
 /*box per periodo di stage*/
 .period-box {
