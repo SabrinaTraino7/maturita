@@ -7,11 +7,7 @@
 .specialFont{font-weight: bold;margin: auto; width: 50%;border: 3px;padding: 2px; border-color: white; border-width: 2px;}
 .header{font-weight: bold;}
 .information{color:rgb(121, 83, 64); text-align: justify; font-size: medium;}
-.imgPCTO
-{
-    width: auto;
-   height: 100px;
-}
+
 .active {
     background-color: rgb(251, 254, 251);
     color: rgb(156, 117, 97);
@@ -188,6 +184,11 @@ img {
     flex-direction: column;
     padding: 15px;
     border-radius: 10px;
+}
+.imgPCTO
+{
+    width: auto;
+   height: 100px;
 }
 @media (max-width: 768px) {
     .content-wrapper {
