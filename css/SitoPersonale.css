@@ -216,6 +216,8 @@ img {
   
   .linkinfo {
     text-align: center; 
+    color:rgb(121, 83, 64);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
   @media (max-width: 768px) {
