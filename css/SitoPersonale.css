@@ -171,6 +171,12 @@ img {
 }
 
 /*PCTO */
+.cont-wrapper
+{
+    display: flex;
+  align-items: flex-start;
+  gap: 20px; /* Distanza tra immagine e testo */
+}
 .text-wrapper {
     flex: 1; /* Occupa tutto lo spazio rimanente accanto all'immagine */
   }
