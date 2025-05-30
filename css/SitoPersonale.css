@@ -170,8 +170,16 @@ img {
     border-radius: 5px;
 }
 
-
-/*box per epriododi stage*/
+/*PCTO */
+.PCTO{
+    display: flex;           /* Disposizione orizzontale */
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+/*box per periodo di stage*/
 .period-box {
     background: rgba(255, 255, 255, 0.7);
     padding: 10px 15px;
