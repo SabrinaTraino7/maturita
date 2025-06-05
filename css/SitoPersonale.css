@@ -19,6 +19,18 @@
     padding: 7px;
     border-radius: 8px;
 }
+.box {
+    background-color:rgb(239, 229, 220);
+    padding: 10px 15px;
+    border-radius: 8px;
+   /* margin-bottom: 15px;*/
+    border: 1px solid rgb(156, 117, 97);
+    /*display: flex;           /* Disposizione orizzontale */
+    /*flex-direction: column;*/
+    padding: 15px;
+    border-radius: 10px;
+    width:fit-content;
+}
 .start{
     color: rgb(156, 117, 97);
 }
