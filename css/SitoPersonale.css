@@ -85,7 +85,7 @@
 /* Stile per l'immagine */
 .vertical img {
     width:auto; /* Larghezza fissa */
-    height: 120px;
+    height: 240px;
     object-fit: cover;
     border-radius: 5px;
 }
