@@ -13,7 +13,29 @@
     align-items: flex-start; /* allinea in alto */
     flex-wrap: wrap; /* va su due righe nei piccoli schermi */
 }
+/*CODICE PER TITOLI PROFESSIONALIZZANTI*/
+.content-wrapper.box {
+    border: 1px solid #ccc; /* o il tuo stile di bordo */
+    padding: 15px;
+    position: relative;
+}
 
+.project-title {
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center; /* o come preferisci */
+}
+
+.content-container {
+    display: flex;
+    align-items: flex-start; /* o 'center' come preferisci */
+    gap: 20px; /* spazio tra immagine e testo */
+}
+
+.giustificato.information {
+    margin: 0; /* rimuove margini predefiniti */
+}
+/*ALTRO*/
 .active {
     background-color: rgb(251, 254, 251);
     color: rgb(156, 117, 97);
