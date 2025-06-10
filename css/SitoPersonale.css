@@ -13,6 +13,11 @@
     align-items: flex-start; /* allinea in alto */
     flex-wrap: wrap; /* va su due righe nei piccoli schermi */
 }
+.immagini
+{
+    width: auto;
+   height: 200px;
+}
 .active {
     background-color: rgb(251, 254, 251);
     color: rgb(156, 117, 97);
