@@ -35,6 +35,8 @@
 .giustificato.information {
     margin: 0; /* rimuove margini predefiniti */
 }
+
+
 /*ALTRO*/
 .active {
     background-color: rgb(251, 254, 251);
