@@ -13,7 +13,12 @@
     align-items: flex-start; /* allinea in alto */
     flex-wrap: wrap; /* va su due righe nei piccoli schermi */
 }
-
+.tornaSopra{
+    background-color: rgb(156, 117, 97);
+    color: rgb(251, 254, 251);
+    padding: 7px;
+    border-radius: 8px;
+}
 .active {
     background-color: rgb(251, 254, 251);
     color: rgb(156, 117, 97);
