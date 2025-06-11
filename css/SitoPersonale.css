@@ -29,16 +29,14 @@
     border-radius: 8px;
 }
 .box {
-    background-color:rgb(239, 229, 220);
-    padding: 10px 15px;
-    border-radius: 8px;
-   /* margin-bottom: 15px;*/
-    border: 1px solid rgb(156, 117, 97);
-    /*display: flex;           /* Disposizione orizzontale */
-    /*flex-direction: column;*/
+    background-color: rgb(239, 229, 220);
     padding: 15px;
     border-radius: 10px;
-    width:fit-content;
+    border: 1px solid rgb(156, 117, 97);
+    width: 100%; /* Occupa tutta la larghezza disponibile */
+    box-sizing: border-box; /* Include padding e border nella larghezza totale */
+    display: flex; /* Disposizione flessibile per allineare immagine e testo */
+    gap: 15px; /* Spazio tra immagine e contenuto */
 }
 .start{
     color: rgb(156, 117, 97);
