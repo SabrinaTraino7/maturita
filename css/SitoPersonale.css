@@ -91,8 +91,8 @@
 
 /* Stile per l'immagine */
 .vertical img {
-    width:auto; /* Larghezza fissa */
-    height: 240px;
+    width:300px; 
+    height:auto;
     object-fit: cover;
     border-radius: 5px;
 }
