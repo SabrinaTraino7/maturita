@@ -18,6 +18,9 @@
     color: rgb(251, 254, 251);
     padding: 7px;
     border-radius: 8px;
+    position: fixed;
+    right: 20px; /* Distanza dal bordo destro */
+    bottom: 20px; /* Distanza dal fondo */
 }
 .active {
     background-color: rgb(251, 254, 251);
